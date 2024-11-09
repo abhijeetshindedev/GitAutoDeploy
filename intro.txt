@@ -1,0 +1,10 @@
+"Automated GitHub Repository Deployer"
+
+A tool that automates the process of downloading and deploying a GitHub repository to a specified local destination. 
+This script connects to a GitHub repository using an access token, accepts parameters such as repository name, branch name, 
+folder name, and destination path, and performs the following actions:
+
+Download - Retrieves the specified branch and folder from the provided repository.
+Deploy - Places the downloaded content in the specified destination directory.
+Restart Application - Closes any previously running instance of the application and restarts it with the updated files in the destination directory.
+Perfect for automating deployments of projects directly from GitHub, streamlining updates, and simplifying project management!"
